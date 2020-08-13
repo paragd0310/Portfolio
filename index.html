@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 , minimum-scale=1.0"
+    />
+    <title>Parag Dhanawade Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styless/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Montserrat&family=Roboto&display=swap&family=Lato&display=swap&family=Asap&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img src="images/Group 5.png" alt="personal_logo" />
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#page2">About Me</a>
+        </li>
+        <li>
+          <a href="#page3">Skills</a>
+        </li>
+        <li>
+          <a href="#page4">Contact</a>
+        </li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+
+    <!-- Introduction -->
+
+    <section id="home">
+      <div>
+        <img
+          src="images/pexels-oleg-magni-1040499 (1).jpg"
+          alt="background image"
+          class="background_img"
+        />
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="hero">
+        <div class="hero-img">
+          <img src="images/Tatti.jpeg" alt="profile pic" class="profile_img" />
+        </div>
+
+        <div class="hero-text">
+          <div class="hero-title">
+            <h1>
+              Hi, I am <br />
+              <span class="title-name">Parag Dhanawade</span>
+            </h1>
+          </div>
+
+          <div class="hero-subtitle">
+            <p>Just a random ML guy.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Page 2 About Me -->
+    <section class="page2" id="page2">
+      <div>
+          <h1 class="about_heading">
+               About Me
+          </h1>
+          <hr>
+          <div class="skill_section">
+              <div class="skill">
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti atque repellendus cum quos dolorem dolores voluptate quae illum alias sunt! Sit saepe maxime incidunt quam sint ducimus dolor, eligendi cumque perspiciatis autem, beatae dolores non, facilis tenetur reiciendis voluptatem dolorem ullam mollitia obcaecati minus reprehenderit cum fugit explicabo! Ex, rem. <br />
+                <br /> 
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus tempore illum non laboriosam ex, possimus rem tempora maxime laudantium voluptate unde ad vel fugit illo facilis doloribus a ipsum iste dolore doloremque hic. Rem officiis tenetur earum recusandae quia ea? <br />
+                <br />
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi quas dolores velit earum hic possimus non inventore eius quam cum.
+              </p>
+              </div>
+              
+          </div>
+
+          <div class="resume_button">
+
+              <button class="resume-btn">
+                  <a href="#resume">Resume</a>
+              </button>
+
+          </div>
+
+      </div>
+    </section>
+    <!--Page 3 Skills  -->
+    <section id="page3">
+      <div class="page3">
+        <div class="heading">
+          <h1>Skills</h1>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="card" onmouseover="dial.animateStart()">
+            <div class="card-header">
+              <h1>HTML</h1>
+            </div>
+            <div class="card-body">
+              <div class="wrapper">
+                  <div class="container chart" data-size="400" data-value="60" data-arrow="d"></div>
+              </div>
+            </div>
+          </div>
+          <div class="card" onmouseover="dial2.animateStart()">
+            <div class="card-header">
+              <h1>CSS</h1>
+            </div>
+            <div class="card-body">
+              <div class="wrapper">
+                <div class="container chart" data-size="400" data-value="50" data-arrow="d"></div>
+            </div>
+            </div>
+          </div>
+          <div class="card" onmouseover="dial3.animateStart()">
+            <div class="card-header">
+              <h1>Machine Learning</h1>
+            </div>
+            <div class="card-body">
+              <div class="wrapper">
+                <div class="container chart" data-size="400" data-value="60" data-arrow="d"></div>
+            </div>
+            </div>
+          </div>
+          <div class="card" onmouseover="dial4.animateStart()">
+            <div class="card-header">
+              <h1>Deep Learning</h1>
+            </div>
+            <div class="card-body">
+              <div class="wrapper">
+                <div class="container chart" data-size="400" data-value="60" data-arrow="d"></div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
+    
+    <!-- footer -->
+    <section id="page4">
+      <footer class="footer">
+          <h1 class="footer_heading">
+              Wanna work together?
+          </h1>
+          <div class="footer-subtitle">
+            <p>I'm always up for learning new things and working together.</p>
+          </div>
+          <div class="contact-btn">
+              <button class="contact-me-btn">
+                  <a href="form.html">Contact Me</a>
+              </button>
+          </div>
+          <div class="icon-container">
+              <div class="icons">
+                  <span class="insta-btn"><a href=""><i class="fab fa-instagram"></i></a></span>
+              </div>
+              <div class="icons">
+                  <span class="insta-btn"><a href=""><i class="fab fa-facebook-f"></i></a></span>
+              </div>
+              <div class="icons">
+                  <span class="insta-btn"><a href=""><i class="fab fa-github"></i></a></span>
+              </div>
+              <div class="icons">
+                  <span class="insta-btn"><a href=""><i class="fab fa-linkedin-in"></i></a></span>
+              </div>
+          </div>
+
+      </footer>
+  </section>
+
+    <script src="app.js"></script>
+    <script>
+      const dialer = () => {
+        dial2.animateStart();
+      }
+    </script>
+  </body>
+</html>
